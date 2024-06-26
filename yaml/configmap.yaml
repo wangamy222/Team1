@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  MARIADB_HOST: mariadb
+  MARIADB_PORT: "3306"
+  MARIADB_DATABASE: wangamy
+  MARIADB_USER: root
+  MARIADB_PASSWORD: "1234"
+  MARIADB_ROOT_PASSWORD: "1234"
+  MARIADB_PREFIX: "wp_"
