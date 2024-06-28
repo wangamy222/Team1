@@ -10,3 +10,4 @@ spec:
   nfs:
     path: /nfs/data/wordpress 
     server: 172.26.90.231
+ 
