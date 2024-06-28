@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# test용 문구 추가
 kubectl apply -f configmap.yaml
 kubectl apply -f mariadb-pv.yaml
 kubectl apply -f mariadb-pvc.yaml
